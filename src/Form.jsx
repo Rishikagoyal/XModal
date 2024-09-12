@@ -4,7 +4,7 @@ import './App.css';
 
 const Form=()=>{
 
-  const[phone,setPhone]=useState(0);
+  const[phone,setPhone]=useState('');
   const[dob,setDOB]=useState('');
   const[name,setName]=useState('');
   const[email,setEmail]=useState('');
